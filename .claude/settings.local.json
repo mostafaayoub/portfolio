@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__switch_browser",
+      "WebFetch(domain:copenhagenarchive.framer.website)",
+      "Bash(python \"C:\\\\Users\\\\mayou\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"personal authority editorial senior professional portfolio\" --design-system -p \"Mostafa Ayoup Portfolio\" -f markdown)",
+      "Bash(ls -la \"D:\\\\CLAUDE AI\\\\Claude code\\\\PROFILE\\\\\" 2>&1 | head -20)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}, %{size_download} bytes\\\\n\" http://localhost:8000/index.html)",
+      "Bash(awk 'NR>=1481 && NR<=1500 { gsub\\(/data:image[^\"]*/, \"[BASE64_IMG]\"\\); print NR\": \"$0 }' \"D:\\\\CLAUDE AI\\\\Claude code\\\\PROFILE\\\\index.html\")",
+      "Bash(grep -n \"ma-nav-backdrop\\\\|ma-nav.scrolled\\\\|ma-nav {\\\\|rgba\\(6,\\\\|rgba\\(6, \\\\|rgba\\(244,\\\\|nav-links.open\" \"D:\\\\CLAUDE AI\\\\Claude code\\\\PROFILE\\\\index.html\")"
+    ]
+  }
+}
